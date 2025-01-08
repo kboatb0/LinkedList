@@ -35,4 +35,10 @@ int main()
         std::cout << start->data << "-->";
         start = start->next;
     }
+
+    delete first;
+    delete second;
+    delete third;
+    delete fourth;
+    delete fifth;
 }
